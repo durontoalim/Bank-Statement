@@ -20,7 +20,6 @@
 
             <form class="form-card px-5 py-5">
                 <div class="form-group">
-                    <label class="pt-2 pb-3" for="name">Login</label>
                     <input class="form-control" type="text" name="email" placeholder="UserName or E-mail">
                     <input class="form-control mt-4" type="password" name="password" placeholder="Password">
 
@@ -37,19 +36,19 @@
             <div class="row pt-5 pb-5 text-center text-light">
                 <div class="col-lg-4 px-5">
                     <div class="deposite bg-warning rounded">
-                        <p class="pt-3">Deposit</p>
+                        <h4 class="pt-3">Deposit</h4>
                         <h4 class="pb-3">$ <span id="currentDeposit">00</span> </h4>
                     </div>
                 </div>
                 <div class="col-lg-4  px-5">
                     <div class="withdraw bg-primary rounded">
-                        <p class="pt-3">Withdraw</p>
+                        <h4 class="pt-3">Withdraw</h4>
                         <h4 class="pb-3">$ <span id="currentWithdraw">00</span></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 px-5">
                     <div class="total-bal bg-danger rounded">
-                        <p class="pt-3">Total Bal</p>
+                        <h4 class="pt-3">Total Bal</h4>
                         <h4 class="pb-3">$ <span id="currentBalance">00</span></h4>
                     </div>
                 </div>
@@ -59,7 +58,7 @@
                     <div class="deposite-in bg-secondary py-3 rounded">
                         <h4>Deposit</h4>
                         <div class="input-group px-3 py-3">
-                            <input id="depositAmount" class="form-control" type="text" placeholder="$ amount you want to deposit">
+                            <input id="depositAmount" class="form-control" type="number" placeholder="$ amount you want to deposit">
                         </div>
                         <div class="btn">
                             <button id="depositBtn" class="btn btn-success" >Deposit</button>
